@@ -172,7 +172,7 @@ public class CircularSeekBar extends View {
 		circleColor.setStrokeWidth(5);
 		innerColor.setStrokeWidth(5);
 		circleRing.setStrokeWidth(5);
-		circleText.setTextSize(100);
+		circleText.setTextSize(50);
 		circleText.setTypeface(Typeface.DEFAULT_BOLD);
 
 		circleColor.setStyle(Paint.Style.FILL);
@@ -293,7 +293,7 @@ public class CircularSeekBar extends View {
 		canvas.drawCircle(cx, cy, outerRadius, circleRing);
 		canvas.drawArc(rect, startAngle, angle, true, circleColor);
 		canvas.drawCircle(cx, cy, innerRadius, innerColor);
-		canvas.drawText(Integer.toString(getProgress())+"\n km", (cx - 100), cy, circleText);
+		canvas.drawText(Integer.toString(getProgress())+" km", (cx - 100), cy, circleText);
 		drawMarkerAtProgress(canvas);
 
 		super.onDraw(canvas);
