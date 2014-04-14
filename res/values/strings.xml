@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attention</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="ice_cream_flavor">
+        <item>Vanilla</item>
+        <item>Strawberry</item>
+        <item>Chocolate</item>
+        <item>Butter-scotch</item>
+    </string-array>
+
+    <string name="calculate">Calculate</string>
+    <string name="drive_time">Distance from Home</string>
+    <string name="your_age">Your Age</string>
+    <string name="ice_cream_flavor">Favorite ice-cream flavor</string>
+    <string name="fav_color">Favorite Color</string>
+    <string name="calculate_question_txt">How much is 2 + 2 * 5?</string>
+    <string name="calculate_answer_1">20</string>
+    <string name="calculate_answer_2">9</string>
+    <string name="calculate_answer_3">12</string>
+    <string name="calculate_answer_4">None</string>
+    <string name="distance_txt">How far are you from home?</string>
+    <string name="done_button_txt">Done</string>
+    <string name="favorite_color_txt">What is your favorite color?</string>
+    <string name="favorite_color_1">Red</string>
+    <string name="favorite_color_2">Yellow</string>
+    <string name="favorite_color_3">Blue</string>
+    <string name="favorite_color_4">Green</string>
+    <string name="favorite_color_5">Black</string>
+    <string name="ice_cream_flavor_txt">Choose your favorite ice-cream flavor</string>
+    <string name="your_age_txt">What is your age?</string>
+    <string name="your_age_hint">Type your age here</string>
+
+</resources>

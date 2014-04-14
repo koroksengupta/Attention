@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/first_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+
+    <Button
+        android:id="@+id/second_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_splash_screen"
+        android:text="@string/drive_time" />
+
+    <Button
+        android:id="@+id/third_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/second_splash_screen"
+        android:text="@string/your_age" />
+
+    <Button
+        android:id="@+id/fourth_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/third_splash_screen"
+        android:text="@string/ice_cream_flavor" />
+    
+        <Button
+        android:id="@+id/fifth_splash_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fourth_splash_screen"
+        android:text="@string/fav_color" />
+    
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fifth_splash_screen"
+        android:layout_margin="30dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>
