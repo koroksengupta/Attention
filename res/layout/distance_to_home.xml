@@ -14,7 +14,7 @@
     <com.android.attention.CircularSeekBar
         android:id="@+id/distance_to_home"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         android:background="@android:color/transparent" >
     </com.android.attention.CircularSeekBar>
 
