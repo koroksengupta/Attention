@@ -6,7 +6,7 @@ Different Interfaces to test the attention in accordance with BCI device
 ###INTERFACE 1
 ===============
 This Interface is use for measuring how the cognitive load varies when performing some intense applications like solving
-a Mathematical question.
+a Mathematical question.![alt tag](screenshot/interface1.png)
 
 
 ###INTERFACE 2
